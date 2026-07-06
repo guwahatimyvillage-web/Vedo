@@ -1,4 +1,4 @@
-name: vedo_flutter
+name: vedo
 description: Vedo - Virtual Education Desk Operator (native Flutter rebuild)
 publish_to: 'none'
 version: 1.0.0+1
@@ -10,26 +10,15 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-
-  # State management (mirrors React Context: Auth/Nav/Toast/AppData providers)
   provider: ^6.1.2
-
-  # Backend - same Firebase project as the current web app
   firebase_core: ^3.6.0
   cloud_firestore: ^5.4.4
   firebase_auth: ^5.3.1
   firebase_messaging: ^15.1.3
   google_sign_in: ^6.2.1
-
-  # Local persistence (mirrors localStorage 'db' helper + offline queue)
   shared_preferences: ^2.3.2
-
-  # Fonts - Inter, same as the web app
   google_fonts: ^6.2.1
-
-  # Routing (mirrors window.location.hash based AppRouter)
   go_router: ^14.6.1
-
   intl: ^0.19.0
 
 dev_dependencies:
